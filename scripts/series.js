@@ -17,7 +17,7 @@ function cargarTemporadas() {
             optionDefault.value = '';
             optionDefault.textContent = 'Seleccione la temporada'
             listaTemporadas.appendChild(optionDefault); 
-           
+        
             temporadasUnicas.forEach(temporada => {
                 const option = document.createElement('option');
                 option.value = temporada;

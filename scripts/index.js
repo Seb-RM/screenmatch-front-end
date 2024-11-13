@@ -2,9 +2,9 @@ import getdatos from "./getDatos.js";
 
 // Mapea los elementos DOM que desea actualizar
 const elementos = {
+    series: document.querySelector('[data-name="series"]'),
     top5: document.querySelector('[data-name="top5"]'),
-    lanzamientos: document.querySelector('[data-name="lanzamientos"]'),
-    series: document.querySelector('[data-name="series"]')
+    lanzamientos: document.querySelector('[data-name="lanzamientos"]')
 };
 
 // Funcion para crear la lista de peliculas
